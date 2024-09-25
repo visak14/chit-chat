@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chit-chat-frontend-fq0q.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
